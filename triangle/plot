@@ -1,0 +1,17 @@
+set terminal postscript enhanced color
+set terminal png
+set output 'triangle.png'
+reset
+set border 16
+unset key
+unset xtics
+unset ytics
+set view 71,134
+#set ztics 0.06, 0.02, 0.20
+#set view 76,171,1
+set label 'p_{2}' at -0.1,-0.1,0
+set label 'p_{1}' at 1.1,-0.1,0
+set label 'p_{3}' at 0.5,1.1,0
+set zlabel rotate by 90 'L@^{eq}_{_{00}} ({\327}1000)'
+splot [][][]'esquina' u 1:2:($3*1000) w l lc rgb 'black' lw 0.5,'../Simulacion/esquina2' u 1:2:($3*1000) w l lc rgb 'red' lw 0.5, 'esquina' u 1:2:($3*0) w l lc rgb 'grey' lw 0.5 #, -0.5
+
