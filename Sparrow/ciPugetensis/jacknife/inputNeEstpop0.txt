@@ -1,0 +1,12 @@
+3	method
+3	number of critical values
+0.05 0.01 0  crit values
+3	methods in tab format
+0               * 1 for output Confidence Intervals, 0 if none
+0               * mating model, 0: random, 1: monogamy (if LD is included)
+0               * max individual to be processed per pop, 0 for no limit
+0               * Pop. range to run, given in pair. No limit if the first = 0
+0               * Loc. ranges to run, given in pairs. No limit if the 1st = 0
+outnepop0
+pop0.geno
+*
