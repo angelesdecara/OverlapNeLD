@@ -1,0 +1,2 @@
+0.5d0   0.003d0        ! recombination fraction - averaged r2 
+                       ! of loci not in the same chromosome

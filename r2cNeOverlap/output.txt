@@ -1,0 +1,3 @@
+harmonic mean N0                               416.6411
+Generation interval                              2.9999
+Exact  Ne from Felsenstein (formula 6)         154.0671

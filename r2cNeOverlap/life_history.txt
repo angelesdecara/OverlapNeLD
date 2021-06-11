@@ -1,0 +1,13 @@
+output.txt             ! <-- output file
+0                      ! <-- 1 for detailed output, summary otherwise
+5                      ! <-- number of parental cohorts
+0.180d0                ! <-- survival to age group 1
+0.095d0                ! <-- survival to age group 2
+0.051d0                ! ... as many lines as parental cohorts
+0.027d0                ! 
+0.014d0                ! 
+0.45821722424027900d0  ! <-- contribution of age group 1 to newborns
+0.26159416159986082d0  ! <-- Id. age group 2
+0.14895059376865369d0  ! ... as many lines as age groups -1
+0.08449842371595091d0  ! ... last age group will be calculated to complete 100%
+c_r2.txt               ! <-- file including r2 and c
